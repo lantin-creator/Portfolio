@@ -14,7 +14,7 @@ const Work = () => {
 Реализован на React и JavaScript.
 В планах — корзина на Supabase с сохранением заказа до оформления и последнего заказа.
 Код доступен в репозитории на GitHub.`}
-        href="https://github.com/lantin-creator/lantin-creator.github.io.git"
+        href="https://github.com/lantin-creator/Pizzeria"
         photos={FOTO_PIZZERIA}
       />
 
@@ -26,7 +26,7 @@ const Work = () => {
 В планах — добавить авторизацию с JWT, подключить базу данных Prisma
 и сделать сохранение информации и возможность просмотра информации о подписке/трафике/устройсвтах в аккаунте.
 Код доступен в репозитории на GitHub.`}
-        href="https://github.com/lantin-creator/VPN.git"
+        href="https://github.com/lantin-creator/VPN"
         photos={FOTO_VPN}
       />
     </div>
