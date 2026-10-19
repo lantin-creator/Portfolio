@@ -1,0 +1,1136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: conic-gradient(from 185deg at 48.65% 3.5%, 
+    #8F3636 4deg, 
+    #4B1C1C 38deg, 
+    #000000 292deg, 
+    #8F3636 359.28deg);
+    height: 100%;
+}
+#home{
+    width: 100%;
+    height: 953px;
+}
+.Cap{
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+    height: 13%;
+    opacity: 70%;
+    z-index: 1000;
+}
+.cap-name{
+width: 324px;
+height: 52px;
+font-family: 'Nosifer Caps';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 86px;
+color: #f00000;
+padding-left: 20px;
+padding-top: 10px;
+}  
+.Menu-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 515px;
+    height: 123.88px;
+    left: 67%;
+    top: 0;
+    gap: 24px;
+}
+.start{
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 46px;
+color: #F5F5F5;
+padding-top: 30px;
+cursor: pointer;
+transition: color 0.3s ease;
+}
+.AboutMe{
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 46px;
+color: #F5F5F5;
+padding-top: 30px;
+cursor: pointer;
+transition: color 0.3s ease;
+}
+.MyWork{
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 46px;
+color: #F5F5F5;
+padding-top: 30px;
+cursor: pointer;
+transition: color 0.3s ease;
+}
+.start a, .AboutMe a, .MyWork a {
+    color: inherit; 
+}
+.greetings{
+position: absolute;
+top: 25%;
+left: 3%;
+font-family: 'Mplus 1p Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 83px;
+color: #FFFFFF;
+}
+.typingcontainer {
+    position: absolute;
+    top: 36%;
+    left: 3%;
+    display: flex;
+    align-items: center;
+}
+.typingtext {
+    font-family: 'Mozilla Text', 'Courier New', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    color: #FFFFFF;
+    min-width: 10px;
+}
+.cursor {
+    font-family: 'Mozilla Text', 'Courier New', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    color: #FFFFFF;
+    animation: blink 0.7s step-end infinite;
+}
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+.Maintext{
+position: absolute;
+top: 50%;
+left: 3%;
+width: 1460px;
+height: 152px;
+font-family: 'Mozilla Text';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 38px;
+color: #FFFFFF;
+}
+.btncontainer{
+    position: absolute;
+    top: 72%;
+    left: 3%;
+    height: 104px;
+    width: 452px;
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+}
+.btn{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background: #DBDBDB;
+cursor: pointer;
+}
+.fototg{
+    background-image: url(../Foto/tg.png);
+    width: 43px;
+    height: 43px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 15px;
+    margin-top: 16px;
+}
+.fotogithub{
+    background-image: url(../Foto/github.png);
+    width: 43px;
+    height: 43px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+.fotomail{
+    background-image: url(../Foto/mail.png);
+    width: 43px;
+    height: 43px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+.fotonumber{
+    background-image: url(../Foto/telephone.png);
+    width: 43px;
+    height: 43px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+.btn:hover{
+    background-color: #FF3C00;
+}
+.myWork{
+position: absolute;
+top: 85%;
+left: 7%;
+width: 267px;
+height: 75px;
+font-family: 'Mozilla Text';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+background-color: inherit;
+border: 2px solid #FF0000;
+cursor: pointer;
+}
+.myWork:hover{
+    background-color: #FF0000;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+#MyStack{
+    position: relative;
+    width: 100%;
+    height: 953px;  
+}
+.HeadlineStack{
+position: absolute;
+top: 17%;
+left: 41%;
+font-family: 'Neucha';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 77px;
+color: #F5F5F5;
+}
+.stekconteiner{
+    position: absolute;
+    top: 27%;
+    left: 9%;
+    width: 90%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+}
+.stekcard{
+    position: relative;
+    background-color: inherit;
+    width: 650px;
+    height: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.MainSkill1, .MainSkill2, .MainSkill3{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+    margin-left: 27px;
+}
+.MainSkill1{
+    background-image: url(../Foto/html.png);
+}
+.MainSkill2{
+    background-image: url(../Foto/css.png);
+}
+.MainSkill3{
+    background-image: url(../Foto/js.png);
+}
+.Mainstek{
+position: absolute;
+top: 35%;
+left: 18%;
+font-family: 'Neucha';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 77px;
+color: #FFFFFF;
+}
+.Mainstektext{
+font-family: 'Neuton';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.SecondarySkill1, .SecondarySkill2, .SecondarySkill3{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+    margin-left: 27px;
+}
+.SecondarySkill1{
+    background-image: url(../Foto/github.png);
+}
+.SecondarySkill2{
+    background-image: url(../Foto/react.png);
+}
+.SecondarySkill3{
+    background-image: url(../Foto/git.png);
+}
+.Secondarystek{
+position: absolute;
+top: 35%;
+left: 5.5%;
+font-family: 'Neucha';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 77px;
+color: #FFFFFF;
+}
+.Secondarystektext{
+font-family: 'Neuton';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.stekcard:hover{
+    box-shadow: 10px 10px 60px rgb(255, 87, 51);
+    background-color: rgb(255, 87, 51, 0.35);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+#MyWork{
+    position: relative;
+    width: 100%;
+    height: 953px;
+}
+.HedlineWork{
+position: absolute;
+top: 17%;
+left: 40%;
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 87px;
+color: #FFFFFF;
+}
+.Workconteiner{
+    position: absolute;
+    top: 27%;
+    left: 9%;
+    width: 90%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+}
+.workcard{
+    position: relative;
+    background-color: inherit;
+    width: 650px;
+    height: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.Work1{
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 79px;
+color: #FFFFFF;
+margin-left: 33%;
+}
+#slider1 {
+position: absolute;
+left: 15%;
+top: -30%;
+width: 450px;
+height: 200px;
+overflow: hidden;
+border-radius: 10px;
+position: relative;
+background: #ddd;
+}
+.slides-wrapper {
+display: flex;
+width: 100%;
+height: 100%;
+transition: transform 0.5s ease;
+}
+.slide {
+min-width: 100%;
+height: 100%;
+flex-shrink: 0;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.dots {
+position: absolute;
+bottom: 15px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+gap: 10px;
+z-index: 10;
+}
+.dot {
+width: 12px;
+height: 12px;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 50%;
+cursor: pointer;
+transition: 0.3s;
+border: 2px solid transparent;
+}
+.dot.active {
+background: white;
+transform: scale(1.2);
+border-color: rgba(255, 255, 255, 0.8);
+}
+.prev-btn,
+.next-btn {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: rgba(0, 0, 0, 0.5);
+color: white;
+border: none;
+padding: 12px 18px;
+font-size: 24px;
+cursor: pointer;
+z-index: 10;
+border-radius: 50%;
+transition: 0.3s;
+width: 45px;
+height: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.prev-btn {
+left: 10px;
+}
+.next-btn {
+right: 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+background: rgba(0, 0, 0, 0.8);
+transform: translateY(-50%) scale(1.1);
+}
+.slide-counter {
+position: absolute;
+top: 15px;
+right: 15px;
+background: rgba(0, 0, 0, 0.6);
+color: white;
+padding: 5px 12px;
+border-radius: 20px;
+font-size: 14px;
+z-index: 10;
+}
+.Pizzeriatext{
+position: absolute;
+top: 55%;
+left: 15%;
+width: 454px;
+height: 155px;
+font-family: 'Pangolin';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 31px;
+color: #FFFFFF;
+}
+.Visittherepository{
+position: absolute;
+top: 85%;
+left: 30%;
+width: 230px;
+height: 62px;
+font-family: 'Pangolin';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #000000;
+display: flex;
+align-items: center;        
+justify-content: center;    
+background-color: inherit;
+border: 1px solid black;
+cursor: pointer;
+}
+.repository{
+    color: black;
+}
+.Visittherepository:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.Visittherepository:hover .repository {
+    color: #ffffff;
+}
+.Work2{
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 79px;
+color: #FFFFFF;
+margin-left: 40%;
+}
+#slider2{
+position: absolute;
+left: 15%;
+top: -30%;
+width: 450px;
+height: 200px;
+overflow: hidden;
+border-radius: 10px;
+position: relative;
+background: #ddd;
+}
+@media (min-width: 1440px) and (max-width: 1630px){
+    .Menu-container{
+        left: 62%;
+    }
+    .greetings{
+        top: 15%;
+    }
+    .typingcontainer{
+        top: 27%;
+    }
+    .Maintext{
+        top: 41%;
+        width: 1360px;
+    }
+    .btncontainer{
+        top: 68%;
+    }
+    .myWork{
+        top: 85%;
+    }
+    .stekconteiner{
+        left: 5%;
+    }
+    .stekcard{
+        width: 610px;
+    }
+    .MainSkill3{
+        margin-left: 15px;
+        width: 130px;
+        height: 130px;
+    }
+    .MainSkill2{
+        width: 130px;
+        height: 130px;
+    }
+    .MainSkill1{
+        margin-left: 20px;
+        width: 130px;
+        height: 130px;
+    }
+    .SecondarySkill1{
+        margin-left: 15px;
+        width: 130px;
+        height: 130px;
+    }
+    .SecondarySkill2{
+        width: 130px;
+        height: 130px;
+    }
+    .SecondarySkill3{
+        margin-left: 0;
+        width: 130px;
+        height: 130px;
+    }
+    .Secondarystek{
+        font-size: 60px;
+    }
+    .workcard{
+        width: 610px;
+    }
+    .Workconteiner{
+        left: 1%;
+    }
+    #slider1{
+        left: 9.5%;
+    }
+    #slider2{
+        left: 9.5%;
+    }
+    .Pizzeriatext{
+        left: 10%;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1439px){
+    #home{
+        height: 579px;
+    }
+    .cap-name{
+        font-size: 45px;
+    }
+    .start, .AboutMe, .MyWork{
+        font-size: 35px;
+    }
+    .Menu-container{
+        left: 50%;
+    }
+    .greetings{
+        font-size: 52px;
+        top: 15%;
+    }
+    .typingcontainer{
+        top: 25%;
+    }
+    .typingtext{
+        font-size: 52px;
+    }
+    .Maintext{
+        width: 960px;
+        font-size: 35px;
+        top: 36%;
+    }
+    .btn{
+        width: 65px;
+        height: 65px;
+    }
+    .fototg, .fotonumber{
+        width: 37px;
+        height: 37px;
+        margin-left: 11px;
+        margin-top: 12px;
+    }
+    .fotogithub{
+        width: 40px;
+        height: 40px;
+        margin-left: 12px;
+        margin-top: 12px;
+    }
+    .fotomail, .fotonumber{
+        width: 35px;
+        height: 35px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .myWork{
+        width: 247px;
+        height: 65px;
+        font-size: 30px;
+    }
+    .MainSkill1, .MainSkill2, .MainSkill3{
+        width: 100px;
+        height: 100px;
+        margin-left: 13px;
+    }
+    .stekcard{
+        width: 500px;
+        height: 90%;
+    }
+    .stekconteiner{
+        left: 5.5%;
+        gap: 25px;
+    }
+    .Mainstek{
+        font-size: 55px;
+        left: 15%;
+        top: 30%;
+    }
+    .SecondarySkill1, .SecondarySkill2, .SecondarySkill3{
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    .Secondarystek{
+        font-size: 50px;
+        left: 3%;
+        top: 30%;
+    }
+    .HeadlineStack{
+        font-size: 60px;
+        left: 38%;
+    }
+    .Workconteiner{
+        left: 5%;
+        gap: 20px;
+    }
+    .workcard{
+        width: 500px;
+        height: 95%;
+    }
+    #slider1, #slider2{
+        width: 400px;
+        left: 5%;
+    }
+    .Pizzeriatext{
+        font-size: 20px;
+        left: 5%;
+    }
+    .Visittherepository{
+        left: 23%;
+    }
+    .Work1{
+        margin-left: 27%;
+    }  
+    .Work2{
+        margin-left: 34%;
+    }  
+    .HedlineWork{
+        left: 33%;
+    }
+}  
+@media(min-width: 768px) and (max-width: 999px){
+    #home{
+        height: 610px;
+    }
+    .cap-name{
+        font-size: 35px;
+    }
+    .start, .AboutMe, .MyWork{
+        font-size: 30px;
+    }
+    .Menu-container{
+        left: 45%;
+        gap: 20px;
+    }
+    .greetings{
+        top: 15%;
+        font-size: 45px;
+    }
+    .typingcontainer{
+        top: 25%;
+    }
+    .typingtext{
+        font-size: 45px;
+    }
+    .Maintext{
+        width: 750px;
+        font-size: 32px;
+        top: 35%;
+    }
+    .btn{
+        width: 55px;
+        height: 55px;
+    }
+    .fototg{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+    .fotogithub{
+        margin-left: 6px;
+        margin-top: 7px;
+    }
+    .fotomail{
+        width: 30px;
+        height: 30px;
+        margin-left: 12.5px;
+        margin-top: 12.5px;
+    }
+    .fotonumber{
+        width: 30px;
+        height: 30px;
+        margin-left: 12px;
+        margin-top: 13.5px;
+    }
+    .myWork{
+        width: 220px;
+        height: 70px;
+        font-size: 30px;
+    }
+    #MyStack{
+        height: 1400px;
+    }
+    .HeadlineStack{
+        left: 31%;
+        top: 7%;
+    }
+    .stekconteiner{
+        display: block;
+        top: 12%;
+        left: 7%;
+    }
+    .stekcard{
+        margin-bottom: 30px;
+    }
+    .HedlineWork{
+        left: 30%;
+    }
+    #MyWork{
+        height: 1750px;
+    }
+    .Workconteiner{
+        display: block;
+    }
+    .Workconteiner{
+        top: 22.5%;
+    }
+    .workcard{
+        margin-bottom: 20px;
+    }
+}
+@media(min-width: 600px) and (max-width: 760px){
+    #home{
+        height: 650px;
+    }
+    .Cap{
+        height: 10%;
+    }
+    .cap-name{
+        font-size: 30px;
+        padding-top: 31px;
+        padding-left: 5px;
+        line-height: 0;
+    }
+    .start, .AboutMe, .MyWork{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .Menu-container{
+        width: 100%;
+        height: 100%;
+        left: 45%;
+        top: -11px;
+        gap: 5px;
+    }
+    .greetings{
+        top: 8%;
+        font-size: 40px;
+    }
+    .typingcontainer, .typingtext, .cursor{
+        font-size: 40px;
+    }
+    .typingcontainer{
+        top: 17%;
+    }
+    .Maintext{
+        top: 26%;
+        width: 560px;
+        font-size: 30px;
+    }
+    .btn{
+        width: 60px;
+        height: 60px;
+    }
+    .fototg{
+        width: 35px;
+        height: 35px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .fotogithub{
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .fotomail, .fotonumber{
+        width: 35px;
+        height: 35px;
+        margin-left: 13px;
+        margin-top: 13px;
+    }
+    .myWork{
+        width: 225px;
+        height: 70px;
+        left: 11%;
+    }
+    #MyStack{
+        height: 553px;
+    }
+    .stekconteiner{
+        left: 5.5%;
+        gap: 50px;
+        top: 28%;
+    }
+    .stekcard{
+        width: 100%;
+        height: 60%;
+        gap: 20px;
+    }
+    .MainSkill1, .MainSkill2, .MainSkill3{
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .SecondarySkill1, .SecondarySkill2, .SecondarySkill3{
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .Mainstek{
+        font-size: 35px;
+        top: 17%;
+        left: 9%;
+    }
+    .Mainstektext{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .Secondarystek{
+        font-size: 28px;
+        top: 17%;
+        left: 4%;
+    }
+    .Secondarystektext{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .HeadlineStack{
+        top: 10%;
+        font-size: 50px;
+        left: 36%;
+    }
+    .workcard{
+        width: 258px;
+        height: 100%;
+    }
+    .Work1{
+        font-size: 35px;
+        margin-left: 20%;
+    }
+    .Work2{
+        font-size: 25px;
+        margin-left: 30%;
+    }
+    #slider1, #slider2{
+        width: 200px;
+        height: 125px;
+        left: 9%;
+        top: -32%;
+    }
+    .Pizzeriatext{
+        top: 50%;
+        left: 10%;
+        width: 215px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .Visittherepository{
+        width: 165px;
+        height: 55px;
+        font-size: 16px;
+        left: 18%;
+    }
+    .HedlineWork{
+        font-size: 50px;
+        left: 30%;
+        top: 7%;
+    }
+    .Workconteiner{
+        top: 25%;
+        height: 430px;
+        left: 4%;
+        gap: 50px;
+    }
+    #MyWork{
+        height: 630px;
+    }
+}
+@media(min-width: 320px) and (max-width: 599px){
+    #home{
+        height: 650px;
+    }
+    .Cap{
+        height: 10%;
+    }
+    .cap-name{
+        font-size: 20px;
+        padding-top: 0;
+        padding-left: 5px;
+    }
+    .start, .AboutMe, .MyWork{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .Menu-container{
+        width: 100%;
+        height: 100%;
+        left: 40%;
+        gap: 5px;
+    }
+    .greetings{
+        top: 8%;
+        font-size: 25px;
+    }
+    .typingcontainer{
+        top: 15%;
+    }
+    .typingtext{
+        font-size: 25px;
+    }
+    .cursor{
+        font-size: 25px;
+    }
+    .Maintext{
+        top: 23%;
+        font-size: 22px;
+        width: 350px;
+    }
+    .btn{
+        width: 40px;
+        height: 40px;
+    }
+    .fototg{
+        width: 23px;
+        height: 23px;
+        margin-left: 6px;
+        margin-top: 8px;
+    }
+    .fotogithub{
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        margin-top: 6px;
+    }
+    .fotomail, .fotonumber{
+        width: 23px;
+        height: 23px;
+        margin-left: 9px;
+        margin-top: 9px;
+    }
+    .btncontainer{
+        width: 65%;
+        height: 7%;
+        gap: 23px;
+        top: 77%;
+    }
+    .myWork{
+        top: 86%;
+        width: 177px;
+        height: 60px;
+        font-size: 22px;
+    }
+    #MyStack{
+        height: 1040px;
+    }
+    .HeadlineStack{
+        top: 8%;
+        left: 34%;
+        font-size: 30px;
+    }
+    .stekcard{
+        width: 310px;
+        gap: 15px;
+    }
+    .MainSkill1, .MainSkill2, .MainSkill3{
+        width: 50px;
+        height: 50px;
+        margin-left: 30px;
+    }
+    .stekconteiner{
+        top: 15%;
+        display: block;
+    }
+    .Mainstek{
+        top: 15%;
+        left: 12%;
+        font-size: 40px;
+    }
+    .stekcard{
+        height: 65%;
+        margin-bottom: 10px;
+    }
+    .Mainstektext{
+        font-size: 30px;
+    }
+    .SecondarySkill1, .SecondarySkill2, .SecondarySkill3{
+        width: 50px;
+        height: 50px;
+        margin-left: 30px;
+    }
+    .Secondarystek{
+        top: 15%;
+        left: 5%;
+        font-size: 34px;
+    }
+    .stekcard{
+        height: 65%;
+    }
+    .Secondarystektext{
+        font-size: 33px;
+    }
+    #MyWork{
+        height: 1280px;
+    }
+    .Workconteiner{
+        display: block;
+        top: 10%;
+    }
+    .HedlineWork{
+        top: 3%;
+        left: 24%;
+        font-size: 30px;
+    }
+    .workcard{
+        width: 320px;
+        height: 85%;
+        margin-bottom: 20px;
+    }
+    #slider1, #slider2{
+        left: 3%;
+        width: 300px;
+        height: 170px;
+        top: -30%;
+    }
+    .Work1, .Work2{
+        font-size: 40px;
+        margin-left: 21%;
+    }
+    .Pizzeriatext{
+        top: 48%;
+        left: 3%;
+        width: 320px;
+        font-size: 20px;
+    }
+    .Visittherepository{
+        top: 84%;
+        left: 14%;
+    }
+}

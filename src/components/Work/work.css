@@ -1,0 +1,384 @@
+.carousel {
+  position: relative;  
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;     
+  border-radius: 8px;
+  background: #1a1a1a;  
+}
+.slide {
+  flex: 0 0 100%;      
+  min-width: 100%;
+  aspect-ratio: 16 / 9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Workconteiner{
+    position: absolute;
+    top: 27%;
+    left: 9%;
+    width: 90%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+}
+.workcard{
+    position: relative;
+    background-color: inherit;
+    width: 650px;
+    height: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.Work1{
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 79px;
+color: #FFFFFF;
+margin-left: 33%;
+}
+#slider1 {
+position: absolute;
+left: 15%;
+top: -30%;
+width: 450px;
+height: 230px;
+overflow: hidden;
+border-radius: 10px;
+position: relative;
+background: #ddd;
+}
+.slides-wrapper {
+display: flex;
+width: 100%;
+height: 100%;
+transition: transform 0.5s ease;
+}
+.slide {
+min-width: 100%;
+height: 100%;
+flex-shrink: 0;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.dots {
+position: absolute;
+bottom: 30px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+gap: 10px;
+z-index: 10;
+}
+.dot {
+width: 12px;
+height: 12px;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 50%;
+cursor: pointer;
+transition: 0.3s;
+border: 2px solid transparent;
+}
+.dot.active {
+background: white;
+transform: scale(1.2);
+border-color: rgba(255, 255, 255, 0.8);
+}
+.prev-btn,
+.next-btn {
+position: absolute;
+top: 46%;
+transform: translateY(-50%);
+background: rgba(0, 0, 0, 0.5);
+color: white;
+border: none;
+padding: 12px 18px;
+font-size: 24px;
+cursor: pointer;
+z-index: 10;
+border-radius: 50%;
+transition: 0.3s;
+width: 45px;
+height: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.prev-btn {
+left: 10px;
+}
+.next-btn {
+right: 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+background: rgba(0, 0, 0, 0.8);
+transform: translateY(-50%) scale(1.1);
+}
+.slide-counter {
+position: absolute;
+top: 15px;
+right: 15px;
+background: rgba(0, 0, 0, 0.6);
+color: white;
+padding: 5px 12px;
+border-radius: 20px;
+font-size: 14px;
+z-index: 10;
+}
+.Pizzeriatext{
+position: absolute;
+top: 48%;
+left: 5%;
+width: 600px;
+height: 155px;
+font-family: 'Pangolin';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 31px;
+color: #FFFFFF;
+}
+.Visittherepository{
+position: absolute;
+top: 85%;
+left: 30%;
+width: 230px;
+height: 62px;
+font-family: 'Pangolin';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #000000;
+display: flex;
+align-items: center;        
+justify-content: center;    
+background-color: inherit;
+border: 1px solid black;
+cursor: pointer;
+}
+.repository{
+    color: black;
+}
+.Visittherepository:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.Visittherepository:hover .repository {
+    color: #ffffff;
+}
+.Work2{
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 79px;
+color: #FFFFFF;
+margin-left: 40%;
+}
+#slider2{
+position: absolute;
+left: 15%;
+top: -30%;
+width: 450px;
+height: 200px;
+overflow: hidden;
+border-radius: 10px;
+position: relative;
+background: #ddd;
+}
+@media (min-width: 1440px) and (max-width: 1630px){
+    .Workconteiner{
+        left: 6%;
+    }
+    #slider1{
+        left: 9.5%;
+    }
+    #slider2{
+        left: 9.5%;
+    }
+    .Pizzeriatext{
+        width: 530px;
+        left: 5%;
+    }
+}
+@media(min-width: 1000px) and (max-width: 1439px){
+    .Workconteiner{
+        left: 5%;
+        gap: 20px;
+    }
+    .workcard{
+        width: 500px;
+        height: 95%;
+    }
+    #slider1{
+        width: 300px;
+        height: 160px;
+        left: 17%;
+    }
+    .Pizzeriatext{
+        width: 450px;
+        height: 215px;
+        font-size: 20px;
+        left: 0;
+    }
+    .Visittherepository{
+        left: 23%;
+    }
+    .Work1{
+        margin-left: 27%;
+    }  
+    .Work2{
+        margin-left: 34%;
+    }  
+    .HedlineWork{
+        left: 33%;
+    }
+}
+@media(min-width: 768px) and (max-width: 999px){
+    .stekconteiner{
+        display: block;
+        top: 12%;
+        left: 7%;
+    }
+    .stekcard{
+        margin-bottom: 30px;
+    }
+    .HedlineWork{
+        left: 30%;
+    }
+    #MyWork{
+        height: 1750px;
+    }
+    .Workconteiner{
+        display: block;
+    }
+    .Workconteiner{
+        top: 22.5%;
+    }
+    .workcard{
+        margin-bottom: 20px;
+    }
+}
+@media(min-width: 600px) and (max-width: 760px){
+    .workcard{
+        width: 310px;
+        height: 100%;
+    }
+    .Work1{
+        font-size: 35px;
+        margin-left: 22%;
+    }
+    .Work2{
+        font-size: 25px;
+        margin-left: 39%;
+    }
+    #slider1{
+        width: 250px;
+        height: 125px;
+        left: 9%;
+        top: -32%;
+    }
+    .Pizzeriatext{
+        top: 50%;
+        left: 0%;
+        width: 307px;
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .Visittherepository{
+        width: 165px;
+        height: 55px;
+        font-size: 16px;
+        left: 18%;
+    }
+    .HedlineWork{
+        font-size: 50px;
+        left: 30%;
+        top: 7%;
+    }
+    .Workconteiner{
+        top: 25%;
+        height: 430px;
+        left: 4%;
+        gap: 50px;
+    }
+    #MyWork{
+        height: 630px;
+    }
+}
+@media(min-width: 0px) and (max-width: 599px){
+    #MyWork {
+        height: auto; 
+    }
+    .HedlineWork {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin: 40px 0 30px 0;
+        font-size: 35px;
+    }
+    .Workconteiner {
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 90%;
+        margin: 0 auto; 
+        height: auto;
+    }
+    .workcard {
+        width: 100%;
+        height: auto;
+        min-height: 500px; 
+        margin-bottom: 30px;
+    }
+    #slider1 {
+        position: absolute;   
+        top: 14%;
+        left: 4%;
+        width: 240px;
+        height: 133px;        
+        overflow: hidden;
+        border-radius: 10px;
+        background: #ddd;
+    }
+    .Work1{
+        text-align: center;
+        margin-left: 21%;
+        font-size: 30px;
+    }
+    .Work2{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 30px;
+    }
+    .Pizzeriatext {
+        position: absolute;
+        top: 43%;
+        left: -3%;
+        width: 90%;
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0 15px;
+    }
+    .Visittherepository {
+        position: absolute;
+        top: 77%;
+        left: 6%;
+        margin: 20px auto; 
+        display: flex;
+    }
+}
