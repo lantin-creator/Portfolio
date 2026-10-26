@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://lantin-creator.github.io/Portfolio2/",
+  "homepage": "https://lantin-creator.github.io/Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
